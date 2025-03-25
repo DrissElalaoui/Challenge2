@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+.vh {
+    display: flex;
+    background-color: #D5E5D5;
+    height: 100vh;
+    align-items: center;
+}
+.vh .section {
+    background-color: #fff;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+   border-radius: 20px;
+
+}
+.vh .section .section1 {
+    background-color: #4635B1;
+    max-width: 50%;
+    padding: 70px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px ;
+}
+.vh .section .section2 {
+    width: 50%;
+    padding: 70px;
+}
+.vh .section .section1 .cercle {
+    background-color: #161179;
+    width: 180Px;
+    height: 180px;
+    border-radius: 70%;
+    margin: auto;
+    box-shadow: 1px 1px 15px #ffc800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vh .section .section1 .cercle p {
+    font-size: 50px;
+  
+   
+}
+.vh .section .section1 .cercle span {
+    font-size: 20px;
+}
+.vh .section .section1 h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffc800;
+}
+.vh .section .section1 .h1 {
+    margin: 20px 0 25px;
+    font-size: 40px;
+    color: #ffca0a;
+
+}
+.vh .section .section1 .p1 {
+    line-height: 25px;
+}
+.vh .section .section2 .rectangle div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.vh .section .section2 .rectangle .div1 {
+    background-color: #FFEDFA;
+    margin-top: 30px;
+}
+.vh .section .section2 .rectangle .div1 p {
+    color: #DE3163;
+    font-weight: 700;
+}  
+.vh .section .section2 .rectangle .div2 p {
+    color: orangered;
+    font-weight: 700;
+}   
+.vh .section .section2 .rectangle .div3 p {
+    color: #1A5319;
+    font-weight: 700;
+}
+.vh .section .section2 .rectangle .div4 p {
+    color: #0C0950;
+} 
+.vh .section .section2 .rectangle  i {
+    margin-right: 7px;
+}
+.vh .section .section2 .rectangle .div2 {
+    background-color: #FFF2C2;
+}
+.vh .section .section2 .rectangle .div3 {
+    background-color:#E7FBB4;
+}
+.vh .section .section2 .rectangle .div4 {
+    background-color: #e2e7ec;
+    margin-bottom: 40px;
+}
+.vh .section .section2 .btn {
+    display: flex;
+   border-radius: 10px;
+    align-items: center;
+    max-width: 200px;
+    margin: auto;
+    height: 40px;
+    justify-content: center;
+    background-color: #2A3663;
+  
+}
+.vh .section .section2 .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.section2 h2 {
+    font-size: 30px;
+    text-align: center;
+}
